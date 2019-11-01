@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="XamarinMaps.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:map="clr-namespace:XamarinMaps"
+    xmlns:maps="clr-namespace:Xamarin.Forms.GoogleMaps;assembly=Xamarin.Forms.GoogleMaps"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:xam="clr-namespace:Xamarin.Essentials;assembly=Xamarin.Essentials"
+    NavigationPage.HasNavigationBar="False"
+    mc:Ignorable="d">
+
+    <!--<StackLayout Padding="10">
+        <Label Text="Latitude" />
+        <Entry
+            x:Name="txt_latitude"
+            Keyboard="Numeric"
+            Text="5.617262" />
+        <Label Text="Longitude" />
+        <Entry
+            x:Name="txt_longitude"
+            Keyboard="Numeric"
+            Text="-0.047449" />
+        <Button
+            x:Name="btn_open_coords"
+            Clicked="btn_open_coords_Clicked"
+            Text="Open Coordinates" />
+    </StackLayout>-->
+
+    <!--<StackLayout>
+        <maps:Map x:Name="MyMap"
+                  IsShowingUser="True"
+                  MapType="None"/>
+    </StackLayout>-->
+
+    <StackLayout>
+        <Button
+            x:Name="btnOpenMap"
+            Clicked="btnOpenMap_Clicked"
+            HorizontalOptions="CenterAndExpand"
+            Text="Open Map"
+            VerticalOptions="CenterAndExpand" />
+    </StackLayout>
+</ContentPage>
